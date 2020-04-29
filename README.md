@@ -1,4 +1,6 @@
 # LAB_1_Ambiente-de-trabajo_IA
+# Integrantes: Eduardo Díaz del Castillo, Abdiel Alveo, Astrid Hurley
+
 Instalación de ROS (Representación del Conocimiento) LAB 1. Ambiente de trabajo
 
 Lineamientos del proyecto:
@@ -19,8 +21,17 @@ En otra terminal compilamos rosrun my_first_package talker.py (Saliendo como res
 
 ![alt text](https://github.com/ryu-ed/LAB_1_Ambiente-de-trabajo_IA/raw/master/talker.png " ")
 
+En otra terminal compilamos rosrun my_first_package listener.y (Despues de haber ejecutado el talker.py) Donde recibe los datos del talker.py
+
+![alt text](https://github.com/ryu-ed/LAB_1_Ambiente-de-trabajo_IA/raw/master/listener.png " ")
 
 2. Imagen generado por el programa rqt_graph donde se muestra el comportamiento de los nodos.
+En otra terminal ejecutamos rqt_graph donde nos muestra el comportamiento de los nodos. 
+![alt text](https://github.com/ryu-ed/LAB_1_Ambiente-de-trabajo_IA/raw/master/rqt.png " ")
 
+Donde vemos graficamente como se comportan los nodos. 
 
 3. Estructura de datos que usaron para trasmitir la información (rostopic info <nombre del topico>)
+![alt text](https://github.com/ryu-ed/LAB_1_Ambiente-de-trabajo_IA/raw/master/rostopic.png " ")
+  
+Vemos la estructura que se uso para transmitir la informacion (Nombre del topico: /chatter)
