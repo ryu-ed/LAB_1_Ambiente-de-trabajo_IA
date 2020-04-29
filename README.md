@@ -12,7 +12,12 @@ Cada 5 segundos genere un número aleatorio, y lo envie a a traves de un topico 
 
 ¿Qué se debe entregar?
 1. Codigo del programa que genera los número aleatorios y el que lo recibe.
-Los archivos estan nombrados como talker.py y listener.py
+Los archivos estan en la carpeta script dentro de my_first_package nombrados como talker.py y listener.py
+
+Primero debemos tener una terminal corriendo roscore.
+En otra terminal compilamos rosrun my_first_package talker.py (Saliendo como resultado el programa de numeros aleatorios cada 5 segundos)
+
+![alt text](https://github.com/ryu-ed/LAB_1_Ambiente-de-trabajo_IA/raw/master/talker.png " ")
 
 
 2. Imagen generado por el programa rqt_graph donde se muestra el comportamiento de los nodos.
